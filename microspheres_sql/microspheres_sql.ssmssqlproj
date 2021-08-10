@@ -19,16 +19,95 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="kanbans_issued.sql">
+        <FileNode Name="EMB_active_containers.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>EMB_active_containers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EMB_batches_on_hold.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>EMB_batches_on_hold.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EMB_component_issue.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mapsxmapwp10001\prod:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>mapsxmapwp10001\prod</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>kanbans_issued.sql</FullPath>
+          <FullPath>EMB_component_issue.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EMB_container_status.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mapsxmapwp10001\prod:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mapsxmapwp10001\prod</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>EMB_container_status.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EMB_get_batches.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mapsxmapwp10001\prod:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mapsxmapwp10001\prod</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>EMB_get_batches.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EMB_get_material.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mapsxmapwp10001\prod:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mapsxmapwp10001\prod</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>EMB_get_material.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EMB_kanban_focused_info.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mapsxmapwp10001\prod:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mapsxmapwp10001\prod</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>EMB_kanban_focused_info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EMB_kanban_used_in_batches.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mapsxmapwp10001\prod:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mapsxmapwp10001\prod</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>EMB_kanban_used_in_batches.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EMB_kanbans_issued.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mapsxmapwp10001\prod:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mapsxmapwp10001\prod</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>EMB_kanbans_issued.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EMB_router_drilldown_est.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mapsxmapwp10001\prod:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mapsxmapwp10001\prod</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>EMB_router_drilldown_est.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EMB_router_drilldown_mbr_all.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mapsxmapwp10001\prod:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mapsxmapwp10001\prod</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>EMB_router_drilldown_mbr_all.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EMB_router_drilldown_mbr_focused.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mapsxmapwp10001\prod:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mapsxmapwp10001\prod</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>EMB_router_drilldown_mbr_focused.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
-      <Items />
+      <Items>
+        <FileNode Name="database_engines.txt">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>database_engines.txt</FullPath>
+        </FileNode>
+        <FileNode Name="EMB_info.txt">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>EMB_info.txt</FullPath>
+        </FileNode>
+      </Items>
     </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>

@@ -3,13 +3,13 @@
 declare @product_size as varchar(30)
 declare @product_type as varchar(30)
 
-set @product_size = '40'
-set @product_type = '(OTCA)'
+set @product_size = '700'
+set @product_type = '(CA)'
 
 select distinct 
 	replace(convert(varchar(30), mbr_tci.CONTAINERNAME), '-001', '') as 'MBR Router', 
 	mbr_tci.ISSUEDPRODBATCH as 'Esterified Router', 
-	est_tci.ISSUEDPRODBATCH as 'Sieving Router'
+	est_tci.ISSUEDPRODBATCH as 'Dry Sieving Router'
 from MESMonthly_MAP.MES.tblComponentIssue mbr_tci, MESMonthly_MAP.MES.tblComponentIssue est_tci
 where mbr_tci.WORKSTATIONNAME = 'FLUID BED COATING-WS-PCM' 
 	and mbr_tci.ISSUEDPRODDESC like 'ESTERFIED PMABA BEADS%'+ @product_size + '%' + @product_type

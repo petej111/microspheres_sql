@@ -1,0 +1,8 @@
+Datasources:
+
+Coatpack MDMS Server: MAPHPCRPP01\PROD
+Coatpack MDMS Reporting DB: CoatPack_MDMS_RPT
+
+MES/OPMR Speedlayer Server: mapsxmapwp10001\prod
+MES Database: MESMonthly_MAP (MES data)
+OPMR Database: OPMR_MAP (SAP data)

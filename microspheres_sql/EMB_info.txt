@@ -1,0 +1,46 @@
+Microspheres Constants
+
+WORKCELLNAMES IN ('EMBOZENE MASTER BATCH',
+				  'MICROSPHERES'
+				  )
+
+WORKFLOW IN ('92203290', -- WF Dye Activation
+			 '92204942', -- WF Dye Release Testing
+			 '92134454', -- WF 40s Part Conversion
+			 '92105667', -- PzF Stock Solution
+			 '92088490', -- WF Microspheres Master Batch Beads
+			 '92383343', -- WF Microspheres Master Batch Beads
+			 '92041683', -- WF Embozene Sieved Beads Standard
+			 '92041686', -- WF Embozene Sieved Beads Membrane
+			 '92041689'  -- WF Embozene Dried Beads
+	         )
+
+WORKSTATIONNAME IN ('PVA SOLUTION PREP-WS-ESB',
+					'MMA DISTILLATION-WS-ESB',
+					'PBS SOLUTION PREP-WS-ESB',
+					'PMMA POLYMER MEMBRANE-WS-ESB',
+					'PMMA POLYMER STANDARD-WS-ESB',
+					'DRY SIEVING-WS-ESB',
+					'HYDROLYSIS-WS-EMB',
+					'HCL PREPARATION-WS-EMB',
+					'NEUTRALIZATION-WS-EMB',
+					'BARIUM LOADING SOL PREP-WS-EMB',
+					'BARIUM LOADING-WS-EMB',
+					'DRYING-WS-EMB',
+					'ESTERIFICATION-WS-EMB',
+					'AIR JET SIEVING-WS-PCM',
+					'FLUID BED COATING-WS-PCM',
+					'MASTER BATCH RELEASE-WS-PCM',
+					'INNER LABEL PRINT-WS-PCM',
+					'DYE ACTIVATION-WS-PCM',
+					'DYE RELEASE TESTING-WS-PCM'
+					)
+
+TASKLISTNAME in ('92041698', -- Hydrolysis
+				 '92240373', -- Dry Sieving
+				 '92240371', -- PMMA Polymerization Standard
+				 '92240372', -- PMMA Polymerization Membrane
+				 '92240367', -- MMA Distillation
+				 '92240370', -- PBS Solution Preparation
+				 '92240369'  -- PVA Solution Preparation
+				 )
